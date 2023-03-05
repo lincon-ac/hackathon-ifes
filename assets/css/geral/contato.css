@@ -1,0 +1,37 @@
+.contato-bg {
+  background-color: var(--cor-5);
+}
+.contato {
+  padding: 20px;
+}
+
+.contato input,
+.contato textarea {
+  width: 100%;
+  border: none;
+  border-radius: 4px;
+}
+.contato input {
+  height: 26px;
+  font-size: 1rem;
+  padding: 8px;
+}
+.contato textarea {
+  height: 150px;
+  padding: 8px;
+  font-size: 1rem;
+}
+.contato label {
+  margin-bottom: 8px;
+}
+.contato input:focus,
+.contato textarea:focus {
+  outline: 3px solid var(--cor-obrigatoria-3);
+  box-shadow: 0 0 2px 4px var(--cor-obrigatoria-1);
+}
+.contato button {
+  border: none;
+  background-color: var(--cor-obrigatoria-1);
+  padding: 10px 20px;
+  border-radius: 4px;
+}

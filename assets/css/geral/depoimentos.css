@@ -1,0 +1,21 @@
+.depoimentos-wrap{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+}
+.depoimento-titulo{
+  text-align: center;
+  font: italic 600 1.5rem/1.2 "Georgia", serif ;
+}
+.depoimentos-item{
+  max-width: 300px;
+}
+.depoimentos-item img{
+  margin: 0 auto;
+  max-width: 100px;
+  border-radius: 50%;
+  border: 2px solid var(--cor-5);
+  box-shadow: 0 0 10px var(--cor-obrigatoria-1);
+  margin-bottom: 15px;
+}

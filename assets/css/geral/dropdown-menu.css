@@ -1,0 +1,30 @@
+[data-dropdown="abrir"] {
+  position: relative;
+}
+[data-dropdown="abrir"]::before {
+  content: "";
+  display: block;
+  background: url("../../img/arrow-down-svgrepo-com.svg") no-repeat;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: -20px;
+  top: 15px;
+ 
+}
+.dropdown-menu {
+  position: absolute;
+  display: none;
+  flex-direction: column;
+  padding: 20px;
+  background-color: var(--cor-obrigatoria-2);
+  right: 10px;
+}
+.dropdown-menu.ativo{
+  display: flex;
+}
+@media(max-width:750px){
+  .dropdown-menu{
+    position: static;
+  }
+}

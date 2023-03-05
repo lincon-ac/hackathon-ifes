@@ -1,0 +1,42 @@
+.calendario-bg {
+  background-color: var(--cor-obrigatoria-3);
+  padding: 40px;
+}
+.calendario {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  overflow: auto;
+  gap: 20px;
+}
+@media (max-width: 900px) {
+  .calendario {
+    justify-content: space-between;
+  }
+}
+.calendario-item {
+  background: var(--cor-0);
+  padding: 50px 30px 20px 30px;
+  border-radius: 20px;
+  border: 3px solid var(--cor-5);
+  text-align: center;
+  position: relative;
+  min-width: 250px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+.data {
+  color: var(--cor-5);
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-left: -28px;
+  text-align: start;
+}
+.status {
+  display: inline-block;
+  background-color: #807cbc;
+  position: absolute;
+  padding: 10px;
+  top: -15px;
+  left: 102px;
+}

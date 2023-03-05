@@ -1,0 +1,21 @@
+.mudar-tema{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: var(--cor-5);
+  border: 1px solid #BE4B8B;
+  border-radius: 50%;
+  padding: 10px;
+}
+.dark-mode{
+  background-color: var(--cor-1) !important;
+}
+.mudar-fonte{
+  position: fixed;
+  bottom: 70px;
+  right: 20px;
+  background-color: var(--cor-5);
+  border: 1px solid #BE4B8B;
+  border-radius: 50%;
+  padding: 10px;
+}

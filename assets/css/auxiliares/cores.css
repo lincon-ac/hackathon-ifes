@@ -1,0 +1,31 @@
+:root {
+  --cor-obrigatoria-1: #1a7fba;
+  --cor-obrigatoria-2: #5b7fb9;
+  --cor-obrigatoria-3: #c27fb1;
+  --cor-0: #fff;
+  --cor-1: #f2faff;
+  --cor-3: #343f4c;
+  --cor-5: #8e32fa;
+}
+
+.dark-mode {
+  --cor-1: #201d2a;
+  --cor-3: #c2cbd6;
+}
+
+.cor-obr-1 {
+  color: var(--cor-obrigatoria-1);
+}
+.cor-obr-2 {
+  color: var(--cor-obrigatoria-2);
+}
+.cor-obr-3 {
+  color: var(--cor-obrigatoria-3);
+}
+.cor-0 {
+  color: var(--cor-0);
+}
+
+.cor-3 {
+  color: var(--cor-3);
+}

@@ -1,0 +1,75 @@
+.container{
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+.grid-section{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.btn{
+  display: flex;
+  max-width: max-content;
+  background-color: var(--cor-5);
+  color: var(--cor-0);
+  padding: 10px 24px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, .3);
+  margin-bottom: 5px;
+  gap: 20px;
+  
+}
+.btn:hover{
+  padding: 11px 25px;
+  margin-bottom: 3px;
+}
+.btn::after{
+  content: url("../../img/enter-svgrepo-com.svg");
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  transition: padding .2s, margin .2s;
+}
+.titulo{
+  font-size: 3rem;
+  position: relative;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+
+/* espaçamento */
+.mb-1{
+  margin-bottom: 20px;
+}
+.mb-2{
+  margin-bottom: 60px;
+}
+
+/*fonte*/
+.font-m-b {
+  font: 700 1.2rem/1.3 "Roboto", sans-serif;
+}
+.font-m {
+  font: 400 1.2rem/1.3 "Roboto", sans-serif;
+}
+.font-l-b{
+  font: 700 1.6rem/1.3 "Roboto", sans-serif;
+}
+
+/* row */
+
+.row{
+  grid-column: 1/-1;
+}
+
+@media (max-width: 750px){
+  .titulo{
+    font-size: 2rem;
+  }
+  .grid-section{
+    grid-template-columns: 1fr;
+  }
+}

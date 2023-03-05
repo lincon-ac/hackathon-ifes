@@ -1,0 +1,32 @@
+.introducao-bg {
+  background-image: url("../../bg-introducao.jpg");
+  padding: 120px;
+  text-align: center;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.introducao {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.introducao .btn {
+  justify-content: center;
+  place-self: center;
+}
+h1.titulo::before {
+  content: "";
+  width: 100px;
+  height: 2px;
+  background-color: var(--cor-obrigatoria-1);
+  display: block;
+  position: absolute;
+  bottom: -10px;
+  left: calc(50% - 50px);
+}
+@media (max-width: 750px){
+  .introducao-bg{
+    padding: 120px 60px
+  }
+};

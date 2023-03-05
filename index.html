@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="./assets/css/style.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="header container mb-1">
+    <div class="logo"><img src="./assets/img/image2vector.svg" alt="Logo"></div>
+    <nav aria-label="primaria">
+      <button href="#" class="menu-mobile-btn" data-menu="abrir"><img
+          src="./assets/img/hamburger-menu-mobile-svgrepo-com.svg" alt=""></button>
+      <ul class="menu cor-3">
+        <li><a href="#introducao" class="menu-link">Inscreva-se</a></li>
+        <li><a href="#contato" class="menu-link">Contato</a></li>
+        </li>
+        <li><a href="#calendario" class="menu-link">Calendario</a></li>
+        <li><a href="#depoimentos" class="menu-link">Depoimentos</a></li>
+        <li data-dropdown="abrir"><a href="" class="menu-link">Mais</a>
+          <ul class="dropdown-menu">
+            <li>
+              <a href="#faq">FAQ</a>
+            </li>
+            <li>
+              <a href="#noticias">Noticias</a>
+            </li>
+            <li>
+              <a href="#informacoes">Informações</a>
+            </li>
+          </ul>
+      </ul>
+    </nav>
+  </header>
+
+  <main data-scroll-suave class="introducao-bg mb-2" id="introducao">
+    <div class="container introducao cor-0">
+      <h1 data-anime="500" class="titulo mb-1 fadeInDown">Aprenda a Programar de graça!</h1>
+      <p data-anime="1000" class="font-m fadeInLeft">Aprenda a programar do 0.</p>
+      <p data-anime="1250" class="font-m mb-1 fadeInRight">Back-end e Front-end em apenas 8 meses, 100% EAD</p>
+      <a data-anime="1500" href="" class="btn font-m-b fadeInUp">Inscreva-se</a>
+    </div>
+  </main>
+
+  <section data-scroll-suave class="apresentacao-bg mb-2 cor-0">
+    <div class="apresentacao container-fluid grid-section">
+      <img style="display: block;-webkit-user-select: none;margin: auto;background-color: hsl(0, 0%, 90%);"
+        src="https://camo.githubusercontent.com/1f3f922431d5363224b20e99467ff28b04e810e2/687474703a2f2f692e696d6775722e636f6d2f304f50346f6f642e676966">
+      <div>
+        <h2 class="titulo mb-1">Capacite-se em programação web com o Projeto Reprograme-se</h2>
+        <p class="mb-1">Aprenda habilidades práticas em programação web com o Projeto Reprograme-se, uma iniciativa que
+          oferece capacitação para qualquer pessoa interessada. Inscreva-se agora e comece a construir sua carreira na
+          área de tecnologia.</p>
+        <p class="mb-1">O Reprograme-se é um projeto que conta com toda experiência e competência do Ifes, uma
+          instituição reconhecidamente de excelência na formação profissional, com a participação da Associação Capixaba
+          de Tecnologia – ACT!ON. </p>
+        <a href="" class="btn">Inscreva-se</a>
+      </div>
+    </div>
+  </section>
+
+  <section data-scroll-suave class="grade mb-2 container" id="grade">
+    <h2 class="titulo cor-3 row">Grade</h2>
+    <div class="grade-container cor-0">
+      <div>
+        <h3>FIC 1 - Front-end</h3>
+        <ul>
+          <li>Conhecimentos
+            básicos de HTML e
+            CSS.</li>
+          <li>Introdução ao
+            framework Bootstrap</li>
+          <li>Programação
+            estruturada com
+            JavaScript.</li>
+          <li>Desenvolvimento web
+            com HTML, CSS e
+            JavaScript.</li>
+        </ul>
+      </div>
+      <div>
+        <h3>FIC 2- Back-end</h3>
+        <ul>
+          <li>Introdução ao framework
+            Node.js e notação
+            Javascript.</li>
+          <li>Criação de páginas
+            customizadas com Node.js.</li>
+          <li>Persistência de dados com
+            Sequelize.</li>
+          <li>Node.js intermediário, CRUD
+            com Sequelize, cookies e
+            sessões.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section data-scroll-suave aria-label="Notícias" id="noticias" class="container mb-2 cor-3">
+    <h2 class="titulo">Notícias</h2>
+    <ul class="galeria">
+      <li class="galeria-item">
+        <div>
+          <img src="./assets/img/image-retro-pcs.jpg" alt="PC retro">
+        </div>
+        <div>
+          <h3 class="titulo"><a href="">Revivendo PCs</a></h3>
+          <p class="font-m">O que acontece quando você dá upgrades modernos no seu pc velho?</p>
+        </div>
+      </li>
+      <li class="galeria-item">
+        <div>
+          <img src="./assets/img/image-top-laptops.jpg" alt="Laptop">
+        </div>
+        <div>
+          <h3 class="titulo"><a href="">Top 10 Laptops de 2022</a></h3>
+          <p class="font-m">Nossas melhores escolhas para diferentes gostos e orçamentos.</p>
+        </div>
+      </li>
+      <li class="galeria-item">
+        <div>
+          <img src="./assets/img/image-gaming-growth.jpg" alt="Joystick">
+        </div>
+        <div>
+          <h3 class="titulo"><a href="">Industria dos games.</a></h3>
+          <p class="font-m">Como a pandemia aumentou a popularidade dos games.</p>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+
+  <section data-scroll-suave aria-label="Faq" id="faq" class="container faq mb-2 cor-3">
+    <h2 class="titulo">Perguntas frequentes</h2>
+    <dl>
+      <dt data-accordion><button class="btn-faq font-m-b">Quais são os cursos de projeto reprograme-se?</button></dt>
+      <dd class="cor-0">O reprograme-se é composto por dois cursos: o curso Programação básica de aplicativos
+        Web - Front-end e o curso Programação com JavaScript e o Framework Node.js - Backend (confira o link da
+        estrutura do curso).</dd>
+
+      <dt data-accordion><button class="btn-faq font-m-b">Quanto tempo eu tenho para finalizar os cursos do projeto
+          reprograme-se?</button></dt>
+      <dd class="cor-0">O reprograme-se terá a duração de 8 meses, sendo 4 meses para o curso Programação
+        básica de aplicativos Web - Front-end e 4 meses para o curso Programação com
+        JavaScript e o Framework Node.js - Back-end.</dd>
+      <dt data-accordion><button class="btn-faq font-m-b">Tenho que pagar inscrição?</button></dt>
+      <dd class="cor-0">Não, o curso é totalmente gratuito.</dd>
+    </dl>
+  </section>
+
+  <article data-scroll-suave class="container mb-2 cor-3 informacoes" id="informacoes">
+    <h2 class="titulo row">Informações</h2>
+    <div class="informacoes-wrapper mb-1">
+      <div>
+        <p class="mb-1 font-m">Os cursos serão desenvolvidos pelo Ifes campus Cachoeiro de Itapemirim utilizando-se de
+          Ambientes Virtuais de Aprendizagem e o aluno contará com orientações de profissionais
+          capacitados como professores formadores, professores mediadores e o apoio de monitores.</p>
+        <p class="font-m">Os estudos ocorrerão de forma online e, ainda, o aluno contará com o apoio e orientação de
+          forma presencial no polo de apoio presencial de seu município.</p>
+      </div>
+      <div><img src="./assets/img/informacao.png" alt=""></div>
+
+    </div>
+    <a href="" class="btn">Inscreva-se</a>
+  </article>
+
+  <section data-scroll-suave aria-label="Calendário" id="calendario" class="calendario-bg mb-2">
+    <h2 class="titulo cor-0">Calendário</h2>
+    <div class="calendario">
+      <div class="calendario-item">
+        <span class="status">teste</span>
+        <p class="mb-2">Periodo de inscrição</p>
+        <p class="data"><span><img src="./assets/img/date-range-svgrepo-com.svg" alt=""></span>05 de Março a 08 de Março
+        </p>
+      </div>
+      <div class="calendario-item">
+        <span class="status">teste</span>
+        <p class="mb-2">Recurso</p>
+        <p class="data"><span><img src="./assets/img/date-range-svgrepo-com.svg" alt=""></span>15 de Março a 18 de Março
+        </p>
+      </div>
+      <div class="calendario-item">
+        <span class="status">teste</span>
+        <p class="mb-2">Período de Matrícula</p>
+        <p class="data"><span><img src="./assets/img/date-range-svgrepo-com.svg" alt=""></span>25 de Março a 28 de Março
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section data-scroll-suave aria-label="Depoimentos" id="depoimentos" class="container mb-2 cor-3 depoimentos">
+    <h2 class="titulo row">Depoimentos</h2>
+    <div class="depoimentos-wrap">
+
+      <div class="depoimentos-item">
+        <div><img src="./assets/img/mario-pfp.jpg" alt="Mario profile pic"></div>
+        <p class="mb-1 depoimento-titulo">Super Mario</p>
+        <p>"Mamma mia, pessoal! Participei do projeto Reprograme-se e agora sou um verdadeiro herói. Aprendi HTML, CSS e
+          JavaScript para criar sites incríveis para a princesa Peach. Os professores foram incríveis e tornaram o
+          aprendizado fácil e divertido. Recomendo fortemente este curso para quem deseja se tornar um desenvolvedor
+          front-end!"</p>
+      </div>
+      <div class="depoimentos-item">
+        <div><img src="./assets/img/spiderman-pfp.jpg"></div>
+        <p class="mb-1 depoimento-titulo">Homem Aranha</p>
+        <p>"Como o Homem-Aranha, eu precisei aprimorar minhas habilidades em desenvolvimento web. Graças ao projeto
+          Reprograme-se aprendi HTML, CSS, JavaScript e muito mais. Os professores foram ótimos e agora posso criar um
+          site incrível para o meu alter-ego, Peter Parker. Se você quer aprender a criar sites incríveis, recomendo
+          este curso com grandes responsabilidades!"</p>
+      </div>
+      <div class="depoimentos-item">
+        <div><img src="./assets/img/naruto-pfp.png" alt="Mario profile pic"></div>
+        <p class="mb-1 depoimento-titulo">Naruto Uzumaki</p>
+        <p>"Oi pessoal, sou o Naruto Uzumaki e gostei muito do curso de Node.js do Reprograme-se que foi incrível!
+          Aprendi muito sobre essa tecnologia e agora posso criar aplicativos web ainda mais poderosos. Os professores
+          foram excelentes e tornaram o aprendizado fácil e divertido. Recomendo muito este curso para quem quer
+          aprimorar suas habilidades em Node.js! Tô certo!"</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contato-bg " id="#contato">
+    <div class="contato container">
+      <h2 class="titulo cor-0">Contato</h2>
+      <form action="mailto:
+    contato@reprograme-se.org.br" method="GET" class="cor-0">
+        <label for="name">Nome Completo</label>
+        <input id="name" name="subject" type="text" class="mb-1" required placeholder="Fulano de Tal" />
+        <label for="name">Email</label>
+        <input id="name" name="subject" type="email" class="mb-1" required placeholder="email@email.com" />
+        <label for="msg">Mensagem</label>
+        <textarea name="body" id="msg" class="mb-1" required></textarea>
+        <button class="cor-0">Enviar</button>
+      </form>
+    </div>
+
+  </section>
+
+
+  <footer class="footer-bg">
+    <div class="footer container cor-3">
+      <h2 class="titulo row">Realização</h2>
+      <div class="img">
+        <div><img id="ifes" src="./assets/img/logo-ifes/ifes-horizontal-pb.png" alt="Logo IFES"></div>
+        <div><img id="action" src="./assets/img/logo-action/horizontal-positiva.png" alt="Logo ACT!ON"></div>
+      </div>
+      <div>
+        <p class="font-m-b">sobre o IFES</p>
+        <p>O Ifes é uma instituição de referência em educação na sociedade capixaba, que promove educação profissional
+          pública de excelência, integrando ensino, pesquisa e extensão. Foi criado a partir da união das unidades do
+          Centro Federal de Educação Tecnológica e das Escolas Agrotécnicas Federais em 2008, com o objetivo de
+          construir uma sociedade democrática, justa e sustentável.</p>
+      </div>
+      <div>
+        <p class="font-m-b">sobre a ACT!ON</p>
+        <p>O Ifes é uma instituição de referência em educação na sociedade capixaba, que promove educação profissional
+          pública de excelência, integrando ensino, pesquisa e extensão. Foi criado a partir da união das unidades do
+          Centro Federal de Educação Tecnológica e das Escolas Agrotécnicas Federais em 2008, com o objetivo de
+          construir uma sociedade democrática, justa e sustentável.</p>
+      </div>
+    </div>
+  </footer>
+
+
+  <button data-toggle-theme class="mudar-tema"><img src="./assets/img/dark-mode-night-moon-svgrepo-com.svg"
+      alt=""></button>
+  <button data-toggle-fonte class="mudar-fonte"><img src="./assets/img/font-increase-svgrepo-com.svg" alt=""></button>
+  <script src="./assets/js/plugins/simple-anime.js"></script>
+  <script type="module" src="./assets/js/script.js"></script>
+</body>
+
+</html>

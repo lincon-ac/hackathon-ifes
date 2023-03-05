@@ -1,0 +1,41 @@
+.menu-mobile-btn {
+  display: none;
+}
+@media (max-width: 750px) {
+  .menu-mobile-btn {
+    display: block;
+    background-color: var(--cor-1);
+    border: none;
+    cursor: pointer;
+    position: relative;
+  }
+  .menu-mobile-btn.ativo {
+    transform: rotate(90deg);
+    transition: 0.3s;
+  }
+  .menu {
+    position: absolute;
+    display: none;
+    background-color: #23081b;
+    right: 20px;
+    z-index: 999999;
+    padding: 20px;
+    color: var(--cor-1);
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  }
+  .menu.ativo {
+    display: block;
+    animation: slideleft 0.5s;
+  }
+  @keyframes slideleft {
+    from {
+      opacity: 0;
+      transform: translate3d(20px, 0, 0);
+    }
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+  }
+}
